@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(./Images/8bef8d2502bf72e5ff7315059758ce10.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'VT323', monospace;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#p1 {
+  width:150px;
+  height: 220px;
+}
+#p1:hover{
+  /* background-color: #ff1c1c; */
+  /* border: 2px solid red; */
+  /* box-shadow: thick thick thick #FF0000 inset , -thick -thick thick #FF0000 inset; */
+}
+
+.p1Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+/*   background: red; */
+}
+
+#p1Name {
+  font-size: 35px;
+  font-weight:550;
+}
+
+#p1Health {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#p2{
+  width:180px;
+  height: 220px;
+  
+}
+
+
+.p2Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+/*   background: red; */
+}
+
+#p2Name {
+  font-size: 35px;
+  font-weight:550;
+}
+
+#p2Health {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.playerControls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ 
+}
+
+.AttackDiv{
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+/*   background: blue; */
+}
+
+.HealDiv {
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+/*   background: yellow; */
+}
+
+#attack {
+  height: 30px;
+  width: 60px;
+  border-radius: 50px;
+  height: 30px;
+  width: 80px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 5px;
+  border:none;
+  background: #ff1c1c;
+  outline: none;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+#heal {
+  height: 30px;
+  width: 80px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 5px;
+  border-radius: 50px;
+  border:none;
+  background: #05ff3b;
+  outline: none;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+#play {
+  height: 50px;
+  width: 120px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 550;
+/*   border:none; */
+  background: #1962ff;
+  outline: none;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+#play:hover{
+  cursor: pointer;
+}
+
+#result {
+  font-size: 32px;
+  font-weight:550;
+  color : #f6fa00;
+  font-weight: 550;
+}
+
+#reset {
+  margin-top: 20px;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+/*   border:none; */
+  background: #FF8800;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 550;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+#reset:hover{
+  cursor: pointer;
+}
+
+.resultContainer {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height:150px;
+  width: 300px;
+}
